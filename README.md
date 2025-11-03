@@ -1,5 +1,19 @@
 # React + TypeScript + Vite
 
+
+create a new repository on the command line
+echo "# reactjs-ts" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/om2010/reactjs-ts.git
+git push -u origin main
+
+
+
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
