@@ -1,6 +1,8 @@
 
 import './App.css'
+import { Button } from './component/Button'
 import Greet from './component/Greet'
+import { Input } from './component/Input'
 import Person from './component/Person'
 import { PersonList } from './component/PersonList'
 
@@ -29,7 +31,9 @@ function App() {
     <>
      <Greet name="Indian" messageCount={100} isLoggin = {true}/>
      <Person name={personName}/>
-     <PersonList name={personListName}/>
+     <PersonList names={personListName}/>
+     <Button handleEvent={(event)=>console.log("hi Event props",event)}></Button>
+    <Input value='' changHadle={(event)=>console.log("Input Props", event)}/>
     </>
   )
 }
